@@ -52,15 +52,15 @@ body {
 	color: #000099;
 }
 
-#items {
+.box {
 	background-color: #D896FF;
 	border: 1px solid #000099;
-	margin: 10px 20px;
+	margin: 10px 5px;
 	padding: 0 20px;
 	color: #000000;
 }
 
-#items h3 {
+.box h3 {
 	margin: 20px 0;
 	color: #000099;
 }
