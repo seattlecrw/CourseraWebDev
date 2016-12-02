@@ -35,6 +35,10 @@ body {
   border: 1px solid #000099;
   font-size: 1.2em;
 }
+#nav-list a:hover {
+  background-color: #000099;
+  color: #FFFFFF;
+}
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -50px;
@@ -43,7 +47,6 @@ body {
 .navbar-header button.navbar-toggle span {
   border-bottom: 2px solid #000099;
 }
-
 /** END OF HEADER **/
 
 /** MAIN CONTENT **/
@@ -58,11 +61,16 @@ body {
 	margin: 10px 5px;
 	padding: 0 20px;
 	color: #000000;
+	clear: both;
 }
-
 .box h3 {
 	margin: 20px 0;
 	color: #000099;
 }
-
+.box a {
+	color: #0000FF;
+}
+.box a:hover {
+	color: #FF0000;
+}
 /** END OF MAIN CONTENT **/
